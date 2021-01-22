@@ -1,0 +1,82 @@
+
+
+.h1 {
+    text-align: center;
+}
+
+.h2 {
+  text-align: center;
+}
+
+/* Carousel */
+.carousel {
+  /* any dimensions are fine, it can be responsive with max-width */
+  width: 300px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+.carousel-inner {
+/* make sure your .items will get correct height */
+  height: 100%;
+}
+  
+.item {
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.collapsible-link {
+  width: 100%;
+}
+
+.hoverable:hover, .hoverable:active, .hoverable:focus{
+  transform: translateY(-5px);
+  background-color: transparent !important;
+}
+
+.form-control[readonly].no-gray {
+  background-color:white;
+}
+
+/* Background Images and Colors */
+body {
+  background: url('../images/Background.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.navbar {
+  padding: 0;
+  background: none;
+}
+ .gradient-nav{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255,255,255,0));
+ }
+
+.dropdown-menu{
+  width: 12rem;
+  padding: 0;
+  background-color: rgba(255, 255, 255, .6) !important;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #5400a8 !important;
+}
+
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+  background-color: #5400a8 !important;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+  background-color: #5000a8;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::before{
+  background-color: #5000a8;
+}
